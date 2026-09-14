@@ -1,0 +1,7 @@
+{
+  "name": "mobileAssignment",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
