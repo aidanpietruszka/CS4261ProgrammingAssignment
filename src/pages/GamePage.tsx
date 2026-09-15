@@ -12,7 +12,6 @@ const CANVAS_WIDTH = 320;
 const CANVAS_HEIGHT = 480;
 
 const OBSTACLES = [
-  // interior obstacles
   { x: 80, y: 100, w: 40, h: 40 },
   { x: 200, y: 250, w: 40, h: 40 },
   { x: 50, y: 300, w: 60, h: 20 },
@@ -22,7 +21,6 @@ const OBSTACLES = [
   { x: 60, y: 380, w: 40, h: 40 },
   { x: 240, y: 350, w: 30, h: 30 },
   { x: 150, y: 350, w: 20, h: 50 },
-  // full perimeter walls
   { x: 0, y: 0, w: CANVAS_WIDTH, h: BORDER_THICKNESS },
   { x: 0, y: CANVAS_HEIGHT - BORDER_THICKNESS, w: CANVAS_WIDTH, h: BORDER_THICKNESS },
   { x: 0, y: 0, w: BORDER_THICKNESS, h: CANVAS_HEIGHT },
@@ -36,7 +34,7 @@ const GamePage: React.FC = () => {
   const gameOver = useRef(false);
   const history = useHistory();
 
-  const ball = useRef({ x: 150, y: 150, vx: 0, vy: 0 });
+  const ball = useRef({ x: 170, y: 100, vx: 0, vy: 0 });
   const startTime = useRef(Date.now());
 
   useEffect(() => {
