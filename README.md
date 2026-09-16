@@ -44,7 +44,7 @@ npm install
 
 Create a `.env` file in the project root (same level as `package.json`):
 
-> 💡 See `.env.example` for the required fields. Reach out to **[YOUR NAME]** if you need the actual project values.
+> 💡 See `.env.example` for the required fields. The real .env file is in the assignment PDF!
 
 ### 5. Build the app
 ```bash
