@@ -27,12 +27,12 @@ Tilt your phone to steer a ball around a field of obstacles and a perimeter wall
 
 ### 1. Clone the repository
 ```bash
-git clone [YOUR REPO URL]
+git clone https://github.com/aidanpietruszka/CS4261ProgrammingAssignment.git
 ```
 
 ### 2. Move into the project root
 ```bash
-cd [YOUR REPO FOLDER NAME]
+cd [REPO FOLDER NAME]
 ```
 
 ### 3. Install dependencies
